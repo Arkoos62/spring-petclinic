@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('script run') {
       steps {
         sh './mvnw package'
       }

@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh './mvnw package'
+        sh '''git config --global user.name "Votre Nom"
+git config --global user.email "votre@email.com"'''
       }
     }
 
